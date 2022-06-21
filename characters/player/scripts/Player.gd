@@ -1,7 +1,7 @@
 class_name Player
 extends KinematicBody2D
 
-const PlayerController = preload("res://characters/player/scripts/PlayerController.gd");
+const PlayerController = preload("res://characters/player/scripts/player_controller.gd");
 
 const SPEED: int = 80;
 var _direction: Vector2;
