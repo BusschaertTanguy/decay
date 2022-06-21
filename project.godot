@@ -8,6 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://characters/player/scripts/Player.gd"
+}, {
+"base": "AnimatedSprite",
+"class": "PlayerAnimation",
+"language": "GDScript",
+"path": "res://characters/player/scripts/PlayerAnimation.gd"
+}, {
+"base": "Node",
+"class": "PlayerController",
+"language": "GDScript",
+"path": "res://characters/player/scripts/PlayerController.gd"
+} ]
+_global_script_class_icons={
+"Player": "",
+"PlayerAnimation": "",
+"PlayerController": ""
+}
+
 [application]
 
 config/name="Decay"
